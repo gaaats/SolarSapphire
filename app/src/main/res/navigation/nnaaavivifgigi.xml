@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nnaaavivifgigi"
+    app:startDestination="@id/staaarttyFragment">
+
+    <fragment
+        android:id="@+id/staaarttyFragment"
+        android:name="com.superking.parchi.ffffraaa.StaaarttyFragment"
+        android:label="fragment_staaartty"
+        tools:layout="@layout/fragment_staaartty" >
+        <action
+            android:id="@+id/action_staaarttyFragment_to_secciFragment"
+            app:destination="@id/secciFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secciFragment"
+        android:name="com.superking.parchi.ffffraaa.SecciFragment"
+        android:label="fragment_secci"
+        tools:layout="@layout/fragment_secci" >
+        <action
+            android:id="@+id/action_secciFragment_to_threeeeFragment"
+            app:destination="@id/threeeeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/threeeeFragment"
+        android:name="com.superking.parchi.ffffraaa.ThreeeeFragment"
+        android:label="fragment_threeee"
+        tools:layout="@layout/fragment_threeee" />
+</navigation>

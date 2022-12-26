@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aaaaaactiv.OpennUriActivity">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img_strelki_3"-->
+<!--        android:layout_width="110dp"-->
+<!--        android:layout_height="110dp"-->
+<!--        android:alpha="0.5"-->
+<!--        android:src="@drawable/lines_11"-->
+<!--        app:layout_constraintEnd_toStartOf="@id/img_enemy_2"-->
+<!--        app:layout_constraintTop_toTopOf="@id/img_enemy_2" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img_enemy_3"-->
+<!--        android:layout_width="90dp"-->
+<!--        android:layout_height="110dp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:alpha="0.5"-->
+<!--        android:src="@drawable/enemy_3"-->
+<!--        app:layout_constraintEnd_toStartOf="@id/img_strelki_3"-->
+<!--        app:layout_constraintTop_toTopOf="@id/img_strelki_3" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatTextView-->
+<!--        android:id="@+id/tv_price_3"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:alpha="0.7"-->
+<!--        android:background="@drawable/sasha_ic_rectangle_46"-->
+<!--        android:fontFamily="@font/open_sans_bold"-->
+<!--        android:gravity="center"-->
+<!--        android:lines="1"-->
+<!--        android:maxLines="1"-->
+<!--        android:text="200"-->
+<!--        android:textAllCaps="true"-->
+<!--        android:textColor="#FAD8D8"-->
+<!--        android:textSize="12sp"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/img_enemy_3"-->
+<!--        app:layout_constraintStart_toStartOf="@id/img_enemy_3"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/img_enemy_3" />-->
+
+    <WebView
+        android:id="@+id/viie"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
